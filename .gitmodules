@@ -1,0 +1,6 @@
+[submodule "dependencies/glm"]
+	path = dependencies/glm
+	url = git://github.com/smadhueagle/glm.git
+[submodule "dependencies/libglsl"]
+	path = dependencies/libglsl
+	url = git@github.com:smadhueagle/libglsl.git
