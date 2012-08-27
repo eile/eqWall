@@ -10,7 +10,7 @@ ___
 [`\example-01`](https://github.com/smadhueagle/eqWall/tree/master/example-01): Port of eqHello from Equalizer Examples
 
 
-### Installion
+### Installtion
 ___
 #### Prerequisites
 * [Equalizer](https://github.com/Eyescale/Equalizer) (>v1.2)
@@ -31,10 +31,28 @@ If you have an account at the KAUST Visualization Laboratory, equalizer module c
 [user@home]$ git clone --recursive  git://github.com/smadhueagle/eqWall.git
 [user@home]$ cd eqWall
 ```
-**Compiling**
+**Buildling**
 ```bash
 [user@home]$ mkdir build
 [user@home]$ cmake ./
 ```
 The binaries are created under the `/build` directory.
 
+### Running on the [AESOP Wall (aka. Zone-2)](http://kvl.kaust.edu.sa/Pages/Showcase.aspx) 
+
+#### Step-1
+Open a new terminal and run an equalizer server with Zone-2 configuration
+
+```bash
+[user@home]$ eqServer /var/remote/software/equalizer/configs/eq/z2.eqc
+
+```
+
+#### Step-2
+Open another terminal and run any of the binaries compiled above.
+
+```bash
+[user@home]$ /path/to/eqWall/build/dir/example-01/example01
+
+```
+Note that equalizer requires you to specify an absolute path to the binary, in order for the tile-nodes to load the executable.
