@@ -1,15 +1,17 @@
 ### eqWall
+___
 
 eqWall (pronounced "_equal_") is a collection of bare bones OpenGL examples set up to run on the [Tiled Display Walls](http://kvl.kaust.edu.sa/Pages/Showcase.aspx) at 
 the [KAUST Visualization Lab Showcase](http://kvl.kaust.edu.sa/Pages/Home.aspx).
 
 
 ### Index of Examples
+___
 [`\example-01`](https://github.com/smadhueagle/eqWall/tree/master/example-01): Port of eqHello from Equalizer Examples
 
 
 ### Installion
-
+___
 #### Prerequisites
 * [Equalizer](https://github.com/Eyescale/Equalizer) (>v1.2)
 * [GLEW](http://glew.sourceforge.net/) (>v1.7)
