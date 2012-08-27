@@ -10,7 +10,7 @@ ___
 [`\example-01`](https://github.com/smadhueagle/eqWall/tree/master/example-01): Port of eqHello from Equalizer Examples
 
 
-### Installtion
+### Installation
 ___
 #### Prerequisites
 * [Equalizer](https://github.com/Eyescale/Equalizer) (>v1.2)
@@ -25,15 +25,11 @@ If you have an account at the KAUST Visualization Laboratory, equalizer module c
 ```
 
 #### Compile 
-
-**Git Checkout**
 ```bash
 [user@home]$ git clone --recursive  git://github.com/smadhueagle/eqWall.git
 [user@home]$ cd eqWall
-```
-**Buildling**
-```bash
 [user@home]$ mkdir build
+[user@home]$ cd build
 [user@home]$ cmake ./
 ```
 The binaries are created under the `/build` directory.
