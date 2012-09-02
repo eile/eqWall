@@ -9,6 +9,6 @@ MACRO_ENSURE_OUT_OF_SOURCE_BUILD("${PROJECT_NAME} requires an out of source buil
 find_package(Equalizer  REQUIRED)
 
 add_subdirectory(dependencies)
-add_subdirectory(example-01)
+add_subdirectory(hello)
 
 
