@@ -36,19 +36,10 @@ The binaries are created under the `/build` directory.
 
 ### Running on the [AESOP Wall (aka. Zone-2)](http://kvl.kaust.edu.sa/Pages/Showcase.aspx) 
 
-#### Step-1
-Open a new terminal and run an equalizer server with Zone-2 configuration
+Open a terminal and run any of the binaries compiled above.
 
 ```bash
-[user@home]$ eqServer /var/remote/software/equalizer/configs/eq/z2.eqc
-
-```
-
-#### Step-2
-Open another terminal and run any of the binaries compiled above.
-
-```bash
-[user@home]$ /path/to/eqWall/build/dir/example-01/example01
+[user@home]$ /path/to/eqWall/build/dir/example-01/example01 --eq-config /var/remote/software/equalizer/configs/eq/z2.eqc
 
 ```
 Note that equalizer requires you to specify an absolute path to the binary, in order for the tile-nodes to load the executable.
